@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/d3p1/3d-css-perspective-sphere/compare/v1.0.0...v1.1.0) (2024-08-20)
+
+
+### Features
+
+* init index and style files [[#1](https://github.com/d3p1/3d-css-perspective-sphere/issues/1)] ([1ffbfce](https://github.com/d3p1/3d-css-perspective-sphere/commit/1ffbfcef614aeabd4fe3ebe988f66a07bdda66b7))
+
 # 1.0.0 (2024-08-20)
 
 
