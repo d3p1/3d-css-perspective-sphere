@@ -1,6 +1,6 @@
 {
     "name": "@d3p1/3d-css-perspective-sphere",
-    "version": "0.0.0",
+    "version": "1.0.0",
     "description": "A perspective sphere to improve my CSS skills",
     "private": true,
     "type": "module",
