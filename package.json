@@ -1,31 +1,31 @@
 {
-    "name": "@d3p1/3d-css-perspective-sphere",
-    "version": "1.1.0",
-    "description": "A perspective sphere to improve my CSS skills",
-    "private": true,
-    "type": "module",
-    "scripts": {
-        "format:code": "prettier --ignore-path .gitignore --check docs",
-        "format:code:fix": "npm run format:code -- --write",
-        "refactor": "npm run format:code:fix"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/d3p1/3d-css-perspective-sphere.git"
-    },
-    "keywords": [
-        "template"
-    ],
-    "author": "C. M. de Picciotto <d3p1@d3p1.dev> (https://d3p1.dev/)",
-    "license": "MIT",
-    "bugs": {
-        "url": "https://github.com/d3p1/3d-css-perspective-sphere/issues"
-    },
-    "homepage": "https://github.com/d3p1/3d-css-perspective-sphere#readme",
-    "devDependencies": {
-        "@commitlint/cli": "^17.8.0",
-        "@d3p1/commitlint-config": "^1.0.0",
-        "husky": "^8.0.3",
-        "prettier": "3.0.3"
-    }
+  "name": "@d3p1/3d-css-perspective-sphere",
+  "version": "1.1.0",
+  "description": "A perspective sphere to improve my CSS skills",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "format:code": "prettier --ignore-path .gitignore --check docs",
+    "format:code:fix": "npm run format:code -- --write",
+    "refactor": "npm run format:code:fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/d3p1/3d-css-perspective-sphere.git"
+  },
+  "keywords": [
+    "template"
+  ],
+  "author": "C. M. de Picciotto <d3p1@d3p1.dev> (https://d3p1.dev/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/d3p1/3d-css-perspective-sphere/issues"
+  },
+  "homepage": "https://github.com/d3p1/3d-css-perspective-sphere#readme",
+  "devDependencies": {
+    "@commitlint/cli": "^17.8.0",
+    "@d3p1/commitlint-config": "^1.0.0",
+    "husky": "^8.0.3",
+    "prettier": "3.0.3"
+  }
 }
