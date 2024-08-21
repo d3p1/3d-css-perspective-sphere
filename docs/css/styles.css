@@ -2,3 +2,78 @@
  * @description Styles
  * @author      C. M. de Picciotto <d3p1@d3p1.dev> (https://d3p1.dev/)
  */
+:root {
+    --primary-color: hsl(0, 0%, 20%);
+    --secondary-color: hsl(260, 39%, 95%);
+}
+
+body {
+    background-color: var(--primary-color);
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-size: 30px;
+}
+
+.scene,
+.scene div {
+    transform-style: preserve-3d;
+}
+
+.scene {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    perspective: 600px;
+}
+
+.scene__cube {
+    --cube-length: 10em;
+}
+
+.scene__cube {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotateY(0);
+    width: var(--cube-length);
+    height: var(--cube-length);
+    animation: cubeRotation 10s infinite linear;
+}
+
+@keyframes cubeRotation {
+    to {
+        transform: translate(-50%, -50%) rotateY(360deg);
+    }
+}
+
+.scene__cube-side {
+    position: absolute;
+    background-color: var(--secondary-color);
+    inset: 0;
+    box-shadow: inset -7px 1px 73px -19px rgba(0, 0, 0, 0.66);
+}
+
+.scene__cube-side--front {
+    transform: translateZ(calc(var(--cube-length) / 2));
+}
+
+.scene__cube-side--back {
+    transform: rotateY(180deg) translateZ(calc(var(--cube-length) / 2));
+}
+
+.scene__cube-side--right {
+    transform: rotateY(90deg) translateZ(calc(var(--cube-length) / 2));
+}
+
+.scene__cube-side--left {
+    transform: rotateY(270deg) translateZ(calc(var(--cube-length) / 2));
+}
+
+.scene__cube-side--top {
+    transform: rotateX(90deg) translateZ(calc(var(--cube-length) / 2));
+}
+
+.scene__cube-side--bottom {
+    transform: rotateX(270deg) translateZ(calc(var(--cube-length) / 2));
+}
