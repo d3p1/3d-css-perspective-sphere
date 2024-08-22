@@ -1,3 +1,12 @@
+# [1.2.0](https://github.com/d3p1/3d-css-perspective-sphere/compare/v1.1.0...v1.2.0) (2024-08-22)
+
+
+### Features
+
+* add dependencies [[#1](https://github.com/d3p1/3d-css-perspective-sphere/issues/1)] ([ca2ca64](https://github.com/d3p1/3d-css-perspective-sphere/commit/ca2ca64310417634ff03ecce0e34f0adf3b63051))
+* init a test cube [[#1](https://github.com/d3p1/3d-css-perspective-sphere/issues/1)] ([2a2485b](https://github.com/d3p1/3d-css-perspective-sphere/commit/2a2485b7c83429ef61a3e503d743ca7e6a2796bd))
+* init sphere [[#1](https://github.com/d3p1/3d-css-perspective-sphere/issues/1)] ([1a93f09](https://github.com/d3p1/3d-css-perspective-sphere/commit/1a93f09829558a5180e1c854f6fa3ee932ee4057))
+
 # [1.1.0](https://github.com/d3p1/3d-css-perspective-sphere/compare/v1.0.0...v1.1.0) (2024-08-20)
 
 
