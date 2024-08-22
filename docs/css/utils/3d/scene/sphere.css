@@ -3,35 +3,32 @@
  * @author      C. M. de Picciotto <d3p1@d3p1.dev> (https://d3p1.dev/)
  * @note        There is a better way to create an sphere playing with
  *              scene and sphere rotation,
- *              but this was a great transformation practice
+ *              but in this is possible to animate each layer
  * @link        https://codepen.io/amit_sheen/pen/QWPppKG
  */
 .scene__sphere {
   --sphere-radius: 2em;
+  --sphere-color: hsl(326, 100%, 62%);
 }
 
 .scene__sphere {
   position: relative;
   width: calc(var(--sphere-radius) * 2);
   height: calc(var(--sphere-radius) * 2);
-  animation: rotateSphere 10s infinite alternate ease-in-out;
-}
-
-@keyframes rotateSphere {
-  from {
-    transform: rotateZ(0deg) rotateY(125deg) translateZ(0);
-  }
-  to {
-    transform: rotateZ(360deg) rotateY(230deg) translateZ(10em);
-  }
+  transform: rotateZ(0deg) rotateY(135deg);
 }
 
 .scene__sphere-item {
   position: absolute;
   inset: 0;
   border-radius: 50%;
-  background-image: linear-gradient(to top, #555 20%, var(--secondary-color));
-  opacity: 0.6;
+  background-color: var(--sphere-color);
+  background-image: linear-gradient(
+    to bottom,
+    hsl(326, 100%, 62%) 0%,
+    hsl(272, 36%, 46%) 50%,
+    hsl(205, 64%, 47%) 100%
+  );
 }
 
 .scene__sphere-item:nth-child(1) {

@@ -2,15 +2,42 @@
  * @description Effect styles
  * @author      C. M. de Picciotto <d3p1@d3p1.dev> (https://d3p1.dev/)
  */
-.scene__sphere {
-  animation: rotateSphere 10s infinite alternate ease-in-out;
+.scene__sphere-item:nth-child(20n) {
+  animation: sphereBreathBottomRight 10s infinite alternate ease-in-out;
 }
 
-@keyframes rotateSphere {
-  from {
-    transform: rotateZ(0deg) rotateY(125deg) translateZ(0);
-  }
+.scene__sphere-item:nth-child(30n) {
+  animation: sphereBreathTopLeft 7s infinite alternate ease-in-out;
+}
+
+.scene__sphere-item:nth-child(50n) {
+  animation: sphereBreathTopRight 5s infinite alternate ease-in-out;
+}
+
+.scene__sphere-item:nth-child(70n) {
+  animation: sphereBreathBottomLeft 2s infinite alternate ease-in-out;
+}
+
+@keyframes sphereBreathBottomRight {
   to {
-    transform: rotateZ(360deg) rotateY(230deg) translateZ(10em);
+    border-bottom-right-radius: 45%;
+  }
+}
+
+@keyframes sphereBreathTopRight {
+  to {
+    border-top-right-radius: 40%;
+  }
+}
+
+@keyframes sphereBreathBottomLeft {
+  to {
+    border-bottom-left-radius: 35%;
+  }
+}
+
+@keyframes sphereBreathTopLeft {
+  to {
+    border-top-left-radius: 30%;
   }
 }
