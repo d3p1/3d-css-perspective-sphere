@@ -1,3 +1,10 @@
+# [1.3.0](https://github.com/d3p1/3d-css-perspective-sphere/compare/v1.2.0...v1.3.0) (2024-08-22)
+
+
+### Features
+
+* improve sphere effect [[#1](https://github.com/d3p1/3d-css-perspective-sphere/issues/1)] ([b89c405](https://github.com/d3p1/3d-css-perspective-sphere/commit/b89c405a3dfeb039e4493614fcf4d630cfcf6e96))
+
 # [1.2.0](https://github.com/d3p1/3d-css-perspective-sphere/compare/v1.1.0...v1.2.0) (2024-08-22)
 
 
