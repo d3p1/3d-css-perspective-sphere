@@ -15,7 +15,6 @@
   position: relative;
   width: calc(var(--sphere-radius) * 2);
   height: calc(var(--sphere-radius) * 2);
-  transform: rotateZ(0deg) rotateY(135deg);
 }
 
 .scene__sphere-item {
