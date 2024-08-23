@@ -1,3 +1,15 @@
+# [1.4.0](https://github.com/d3p1/3d-css-perspective-sphere/compare/v1.3.0...v1.4.0) (2024-08-23)
+
+
+### Bug Fixes
+
+* remove unneeded layers from sphere [[#1](https://github.com/d3p1/3d-css-perspective-sphere/issues/1)] ([80bbf3b](https://github.com/d3p1/3d-css-perspective-sphere/commit/80bbf3b85aea04587de8e86b652e7a6f2c8ffd35))
+
+
+### Features
+
+* add rotation effect to sphere [[#1](https://github.com/d3p1/3d-css-perspective-sphere/issues/1)] ([1305579](https://github.com/d3p1/3d-css-perspective-sphere/commit/13055792d91dbdaa3814eb6d3e22623c0c171ed4))
+
 # [1.3.0](https://github.com/d3p1/3d-css-perspective-sphere/compare/v1.2.0...v1.3.0) (2024-08-22)
 
 
