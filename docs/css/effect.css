@@ -6,20 +6,20 @@
   animation: sphereRotation 20s infinite alternate linear;
 }
 
-.scene__sphere-item:nth-child(20n) {
-  animation: sphereBreathBottomRight 10s infinite alternate ease-in-out;
+.scene__sphere-item:nth-child(2n) {
+  animation: sphereBreathBottomRight 20s infinite alternate ease-in-out;
 }
 
-.scene__sphere-item:nth-child(30n) {
-  animation: sphereBreathTopLeft 7s infinite alternate ease-in-out;
+.scene__sphere-item:nth-child(3n) {
+  animation: sphereBreathTopLeft 15s infinite alternate ease-in-out;
 }
 
-.scene__sphere-item:nth-child(50n) {
-  animation: sphereBreathTopRight 5s infinite alternate ease-in-out;
+.scene__sphere-item:nth-child(5n) {
+  animation: sphereBreathTopRight 10s infinite alternate ease-in-out;
 }
 
-.scene__sphere-item:nth-child(70n) {
-  animation: sphereBreathBottomLeft 2s infinite alternate ease-in-out;
+.scene__sphere-item:nth-child(7n) {
+  animation: sphereBreathBottomLeft 5s infinite alternate ease-in-out;
 }
 
 @keyframes sphereRotation {
@@ -27,30 +27,30 @@
     transform: rotateY(0deg) rotateX(180deg) rotateZ(0deg);
   }
   to {
-    transform: rotateY(360deg) rotateX(180deg) rotateZ(0deg);
+    transform: rotateY(45deg) rotateX(180deg) rotateZ(0deg);
   }
 }
 
 @keyframes sphereBreathBottomRight {
   to {
-    border-bottom-right-radius: 45%;
+    border-bottom-right-radius: 35%;
   }
 }
 
 @keyframes sphereBreathTopRight {
   to {
-    border-top-right-radius: 40%;
+    border-top-right-radius: 30%;
   }
 }
 
 @keyframes sphereBreathBottomLeft {
   to {
-    border-bottom-left-radius: 35%;
+    border-bottom-left-radius: 25%;
   }
 }
 
 @keyframes sphereBreathTopLeft {
   to {
-    border-top-left-radius: 30%;
+    border-top-left-radius: 20%;
   }
 }
